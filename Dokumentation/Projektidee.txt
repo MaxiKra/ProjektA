@@ -81,3 +81,13 @@ Es ist dabei sehr wahrscheinlich, dass Sie (vielleicht auch erst später währen
 
 Viele Grüße,
 Markus Alpers
+
+=== Aufgaben MaxiKra, 2016-04-17 ===
+
+"Die Akte Whitechapel"
+
+Der Spieler soll sich aussuchen dürfen, ob er Jack oder ein Polizist ist.
+Der Spieler soll die Möglichkeit haben, auf der Spielkarte auf die verschiedenen Punkte zu klicken, um sich dort hin zu bewegen. Als Polizist soll es ebenfalls die Möglichkeit geben, umliegende weiße Kreise mit einem Klick zu untersuchen.
+Das Programm soll die Kreise, auf denen die Figuren waren speichern, sodass die Kreise nach einer Untersuchung eines Polizisten als Hinweis oder Tatort gekennzeichnet werden können. Es soll viele verschiedene Status geben, die die einzelnen Kreise annehmen können, damit wie gesagt Polizisten Hinweise und Tatorte kennzeichnen können, man aber auch sehen kann, wo Jack bzw. ein Polizist steht uvm.
+Das Programm soll dann automatisch die Felder, die Jack betreten hat, auf einem Block wie er auch in der Spielanleitung von brettspiele-report zu sehen ist, eintragen und bei Bedarf anzeigen.
+Wenn Jack geschnappt wurde (oder eben nicht), soll das Programm eine kleine Animation je nach Ausgang des Spieles abspielen und das Ergebnis speichern, anzeigen und das Spiel zurücksetzen.
