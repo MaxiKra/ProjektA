@@ -91,3 +91,7 @@ Der Spieler soll die Möglichkeit haben, auf der Spielkarte auf die verschiedene
 Das Programm soll die Kreise, auf denen die Figuren waren speichern, sodass die Kreise nach einer Untersuchung eines Polizisten als Hinweis oder Tatort gekennzeichnet werden können. Es soll viele verschiedene Status geben, die die einzelnen Kreise annehmen können, damit wie gesagt Polizisten Hinweise und Tatorte kennzeichnen können, man aber auch sehen kann, wo Jack bzw. ein Polizist steht uvm.
 Das Programm soll dann automatisch die Felder, die Jack betreten hat, auf einem Block wie er auch in der Spielanleitung von brettspiele-report zu sehen ist, eintragen und bei Bedarf anzeigen.
 Wenn Jack geschnappt wurde (oder eben nicht), soll das Programm eine kleine Animation je nach Ausgang des Spieles abspielen und das Ergebnis speichern, anzeigen und das Spiel zurücksetzen.
+
+
+Aufgabe4 MarcoKurzweg:
+-Man könnte noch zuvor angeben wie viele Spieler teilnehmen können und ob jeder gegen jeden, oder einer gegen den Rest spielt. Ansonsten finde ich es gut.
