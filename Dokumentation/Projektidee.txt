@@ -1,97 +1,53 @@
-=== Projektidee MaxiKra, 2016-04-05 ===
-
-Leider ist mir noch nichts eingefallen!
-
-=== Feedback Alpers, 2016-04-15 ===
-
-Kein Problem. Dann formulieren Sie bitte für das folgende Brettspiel eine Projektbeschreibung wie in Kap. 5 beschrieben und arbeiten Sie damit weiter: Die Akte Whitechapel http://www.brettspiele-report.de/die-akte-whitechapel/
-
-=== Zweiter Aufgabenblock (identisch für alle Studierenden) ===
-
-Sie haben jetzt gezeigt, dass Sie einfache Arbeiten mit einem Git-Repository beherrschen.
-Als Teil der letzten Aufgabe sollten Sie beschreiben, was Ihre Anwendung tun soll, also was für Funktionalitäten Ihre Anwendung bieten soll.
-Wenn Sie hier nichts angegeben haben, dann werde ich Ihnen einen Vorschlag hochladen, mit dem Sie weiterarbeiten können.
-In der Veranstaltung haben Sie außerdem gelernt, was Markup Languages sind.
-
-Die nächste Aufgabe besteht aus den folgenden Teilen:
-
-1.) Lesen Sie mein Feedback durch und setzen Sie die beschriebenen Aufgaben um.
-
-Für die folgende Aufgabe sollten Sie mindestens eine halbe Stunde investieren. Zwei Stunden wäre aber etwas zu viel des guten.
-Bearbeiten Sie die Aufgaben 2. und 3. bitte innerhalb von 48 Stunden, weil andere Studierende davon abhängen, dass Sie sie beendet haben.
-Bearbeiten Sie die Aufgaben auf jeden Fall in der vorgegebenen Reihenfolge.
-Und bearbeiten Sie eine Aufgabe nicht nachträglich nochmal. (Wenn Sie also z.B. Aufgabe 3. bearbeiten, dann ändern Sie bitte nichts an Aufgabe 1. nachträglich ab. Dafür wird später noch genug Zeit sein.)
-
-2.) Bennen Sie die strukturellen Elemente, aus denen Ihre Anwendung bestehen soll.
-Es ist dabei egal, ob es diese Elemente in HTML gibt.
-Es ist auch egal, ob Sie sich schon in HTML eingearbeitet haben.
-Wichtig ist nur, dass Sie die strukturellen Elemente benennen, aus der die Anwendung bestehen soll.
-Speichern Sie diese Aufstellung als HTML-Kommentar in einer Datei mit dem Namen
-
-strukt.html
-
-, die Sie in Ihrem Repository abspeichern. Wichtig: Die Datei soll nicht im Unterverzeichnis Dokumentation des Repositories gespeichert werden, weil sie die Basis für das erste HTML-Dokument werden wird.
-
-Wenn Sie noch unsicher sind: Strukturelle Elemente können alles mögliche sein:
-- Tabellen
-- Listen
-- Schaltflächen
-- Textfelder
-- Bildbereiche
-- Hintergrundmusik
-- Absätze
-- ...
-
-In anderen Worten: Ein strukturelles Element ist etwas, das ein abgegrenzter Teil der Anwendung ist.
-Notieren Sie kurz, welche Funktion jedes der von Ihnen genannten Elemente haben soll.
-
-Hier einige Beispiele:
-- Schaltfläche (Nutzer können per Klick bestätigen, dass eine Eingabe abgeschickt werden soll.)
-- Textfeld für Namen (Nutzer können Ihren Nachnamen eintragen.)
-- Log-In-Maske (Bereich, in dem Nutzer sich einloggen können.)
-- - Teile der Log-In-Maske:
-- - Textfeld für Username
-- - Textfeld, das die Eingabe nicht anzeigt, fürs Passwort
-- Tabelle, 7 x 5 Felder (Jedes Feld soll ein Bild anzeigen, das ein Feld des Spielbretts ist. Wenn Nutzer ein Feld anwählen, soll ein Menü erscheinen.)
-- - Menü für jedes Feld der Tabelle mit Texteinträgen (Eintrag für "Gebäude abreißen", "Feld kaufen")
-- Hintergrundbild (Hier sollen einzelne Bilder als Diashow eingeblendet werden.)
-- Werbebanner
-- Schaltfläche für die Maskierung von NSFW (NSFW = Not safe for work)(NutzerInnen können über diese Schaltfläche eine andere Anwendung in der Vordergrund einblenden lassen, damit der Chef nicht sieht, dass sie gerade spielen.)
-
-3.) Schauen Sie jetzt in der Liste der Repositories (nicht in der Tabelle der Accounts) nach, welche zehn Repositories vor und nach Ihrem Repository aufgeführt sind und geben Sie den Besitzern dieser Repositories Zugriffsrechte auf Ihr Repository.
-
-Bsp.: Sie haben das Repository BerndStromberg. Dann folgen die zehn Repositories der Nutzer BlackWolf63, Cantinaband, CaptainWeasle, ColePfeiffer, CurvLietzau,
-DangerDulf, dnbdel, Domsche, Eldinox und Eupuco und vor Ihnen gibt es die fünf Repositories der Nutzer 2238867, amelie-beh, Anger21, anita1997 und Asphalon. all diesen Accounts geben Sie jetzt Zugriffsrechte auf Ihr Repository, so wie Sie das schon für mich getan haben. Wenn Sie, wie BerndStrommberg zu weit am Anfang der Liste stehen (hier gibt es ja nur fünf andere Accounts bis zum Anfang der Liste), dann geben Sie zusätzlich noch den Besitzern der letzten fünf Repositories Zugriffsrechte. Es sollten insgesamt 20 Accounts Zugriffsrecht haben.
-
-Für die nächsten zwei Aufgaben sollten Sie pro Repository zwischen zehn Minuten und einer Stunde aufwenden. Weniger ist zu wenig und mehr ist zu viel.
-Beachten Sie dabei bitte, dass Sie hier letzten Endes Kritik an der Arbeit eines/einer anderen üben und das einige von Ihnen noch nie programmiert haben. Arbeiten Sie deshalb bitte daran, alles, was Sie ergänzen so neutral und höflich wie möglich zu formulieren, denn Unwissenheit und mangelndes Verständnis fürs Programmieren sind eben nicht das selbe wie Dummheit oder Faulheit.
-
-Bitte erledigen Sie diese Aufgaben innerhalb der nächsten sieben Tage.
-
-4.) Als nächstes greifen Sie auf die nach Ihrem Repository nachfolgenden fünf Repositories zu und bearbeiten hier die folgende Aufgabe. (Hier hängen Sie also davon ab, dass andere Kommilitonen Aufgabe 3. erledigt haben.) 
-
-Lesen Sie sich die Projektidee durch und machen Sie sich ähnlich wie bei 2. einfache Stichpunkte über strukturelle Elemente, die Sie bei dieser Projektidee sinnvoll finden. (Hier erstmal nur Stichpunkte, Details arbeiten Sie unter 5. aus.)
-
-5.) Öffnen Sie jetzt die Datei strukt.html des Repositories, das Sie gerade bearbeiten. Ergänzen Sie Elemente, die Sie unter 4. notiert haben und die noch nicht eingetragen sind in der unter 2. beschriebenen Form.
-
-Abschließender Hinweis zu 4. und 5.:
-
-Auch wenn das nirgends explizit steht sollen Sie Änderungen in das Repository pushen, aus dem sie die Datei strukt.html gepullt haben.
-Es ist dabei sehr wahrscheinlich, dass Sie (vielleicht auch erst später während der Projektbearbeitung) einen merge durchführen müssen. Wenn Sie sich noch nicht angesehen haben, wie das geht, dann tun Sie es jetzt.
-
-Viele Grüße,
-Markus Alpers
-
+====================================
 === Aufgaben MaxiKra, 2016-04-17 ===
+====================================
 
 "Die Akte Whitechapel"
 
 Der Spieler soll sich aussuchen dürfen, ob er Jack oder ein Polizist ist.
-Der Spieler soll die Möglichkeit haben, auf der Spielkarte auf die verschiedenen Punkte zu klicken, um sich dort hin zu bewegen. Als Polizist soll es ebenfalls die Möglichkeit geben, umliegende weiße Kreise mit einem Klick zu untersuchen.
-Das Programm soll die Kreise, auf denen die Figuren waren speichern, sodass die Kreise nach einer Untersuchung eines Polizisten als Hinweis oder Tatort gekennzeichnet werden können. Es soll viele verschiedene Status geben, die die einzelnen Kreise annehmen können, damit wie gesagt Polizisten Hinweise und Tatorte kennzeichnen können, man aber auch sehen kann, wo Jack bzw. ein Polizist steht uvm.
+Der Spieler soll die Möglichkeit haben, auf der Spielkarte auf die verschiedenen Punkte zu klicken, um sich dort hin zu bewegen. 
+Als Polizist soll es ebenfalls die Möglichkeit geben, umliegende weiße Kreise mit einem Klick zu untersuchen.
+Das Programm soll die Kreise, auf denen die Figuren waren speichern, sodass die Kreise nach einer Untersuchung eines Polizisten als Hinweis oder Tatort gekennzeichnet werden können. 
+Es soll viele verschiedene Status geben, die die einzelnen Kreise annehmen können, damit wie gesagt Polizisten Hinweise und Tatorte kennzeichnen können, man aber auch sehen kann, wo Jack bzw. ein Polizist steht uvm.
 Das Programm soll dann automatisch die Felder, die Jack betreten hat, auf einem Block wie er auch in der Spielanleitung von brettspiele-report zu sehen ist, eintragen und bei Bedarf anzeigen.
 Wenn Jack geschnappt wurde (oder eben nicht), soll das Programm eine kleine Animation je nach Ausgang des Spieles abspielen und das Ergebnis speichern, anzeigen und das Spiel zurücksetzen.
 
-
 Aufgabe4 MarcoKurzweg:
 -Man könnte noch zuvor angeben wie viele Spieler teilnehmen können und ob jeder gegen jeden, oder einer gegen den Rest spielt. Ansonsten finde ich es gut.
+
+=======================================
+=== Projektidee MaxiKra, 2016-04-05 ===
+=======================================
+
+Leider ist mir noch nichts eingefallen!
+
+===================================
+=== Feedback Alpers, 2016-04-15 ===
+===================================
+
+Kein Problem. Dann formulieren Sie bitte für das folgende Brettspiel eine Projektbeschreibung wie in Kap. 5 beschrieben und arbeiten Sie damit weiter: Die Akte Whitechapel http://www.brettspiele-report.de/die-akte-whitechapel/
+
+===============================================================
+=== Zweiter Aufgabenblock (identisch für alle Studierenden) ===
+===============================================================
+(gelöscht, da im Lernraum für alle einsehbar)
+
+===================================
+=== Feedback Alpers, 2016-05-12 ===
+===================================
+
+Ein kleines Detail fehlt noch: Momentan ist der eigentliche Kern des Spiels, also die Antwort auf die Frage, worum es Jack bzw. dem Polizisten geht. Denken Sie in dem Zusammenhang bitte daran, dass Ihre Aufgabe nicht darin besteht, das Brettspiel 1:1 umzusetzen, sondern basierend auf dem Brettspiel ein webbasiertes interaktives Spiel zu konzipieren.
+
+Hier noch ein Absatz zum Thema Interaktion: Die Schaltflächen, die NutzerInnen verwenden können sind nur die bedienbaren Elemente eines Computerprogramms. Interaktion ist wesentlich mehr als das. Denken Sie beispielsweise daran, wie eine Pokerrunde gespielt wird. Dabei spielt es nämlich eine Rolle, welche Karten abgeworfen wurden. Die Spieler (und bei einem Computerprogramm der Computer) analysieren kontinuierlich das Verhalten der anderen Spieler und ändern Ihren Spielstil in Abhängigkeit davon. Und genau das müssen Sie auch als Teil Ihres Projekts ausarbeiten und in die Projektbeschreibung integrieren.
+
+Hier die zweite Schwierigkeit: Sie müssen sich überlegen, was Sie alles streichen und was sie alle ergänzen müssen, damit es ein eigenständiges webbasiertes Computerspiel wird.
+
+Sie müssen bei der Projektkonzeption also insbesondere an Dinge denken, die in einem Brettspiel nicht vorkommen. Ein Log-In oder eine Highscore-Liste wären nur zwei von vielen Möglichkeiten, die hinzukommen. Die direkte Unterhaltung zwischen Spielern muss dagegen im Bedarfsfall anders gelöst werden. Und Aufgaben wie das Aufnehmen einer Karte, das verschieben eines Elements auf dem Spielbrett fallen häufig bei Computerspielen unter den Tisch.
+
+Wertung 2: Projektbeschreibung: gesamt: 4 / 10
+- Pro Interaktionsmöglichkeit: 0 (Damit ist nicht die Anzahl an Schaltflächen gemeint, sondern die Methoden, wie das Spiel die Interaktionen von individuellen Spielern nutzt, um den weiteren Ablauf zu individualisieren.)
+- Knappe aber klare Beschreibung: 4
+- Werbeslogans u.ä.: 0 
+- Designaspekte: 0 
+- Voraussetzung bekannten Wissens: 0 
+(Bitte beachten Sie, dass das die Wertung zum aktuellen Zeitpunkt und keine abschließende Wertung Ihrer Beschreibung ist.)
