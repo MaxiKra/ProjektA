@@ -51,3 +51,12 @@ Wertung 2: Projektbeschreibung: gesamt: 4 / 10
 - Designaspekte: 0 
 - Voraussetzung bekannten Wissens: 0 
 (Bitte beachten Sie, dass das die Wertung zum aktuellen Zeitpunkt und keine abschließende Wertung Ihrer Beschreibung ist.)
+
+=========================================================
+=== Ergänzung Projektbeschreibung MaxiKra, 2016-05-31 ===
+=========================================================
+
+Einen Log-In könnte man hinzufügen. Dieser wird dann direkt nach Start des Spiels verlangt.
+Eine Highscoreliste, kann man ebenfalls im Menü hinzufügen. Diese zeigt dann an, wie viele Spielzüge die Top 10 Spieler gebraucht haben und entweder Jack zu verhaften, oder die Opfer zu töten.
+Die Interaktionsmöglichkeiten im ersten Abschnitt waren so gedacht, dass der Spieler die Rolle von entweder Jack oder einem Polizisten einnimmt, und der Computer die jeweils andere Rolle. Je nach dem wie sich der Spieler auf den Feldern bewegt, reagiert auch der Computer darauf. Tötet der Spieler als Jack ein Opfer, so kann der Computer wenn er an das Feld gelangt, dieses auch als Tatort markieren.
+Ist der Computer Jack, so soll er versuchen, dem Spieler (Polizisten) natürlich nicht in die Arme zu laufen - was ebenfalls von den Aktionen und dem Verhalten des Spielers abhängt.
