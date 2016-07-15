@@ -1,4 +1,13 @@
 =========================================================
+=== Ergänzung Projektbeschreibung MaxiKra, 2016-07-15 ===
+=========================================================
+
+Der Computer reagiert auf das Verhalten des Spielers, indem er, je nach dem auf welches Feld der Spieler sich bewegt, nur diejenigen Felder, die sich im näheren Umkreis befinden, zum "bespielen" freigibt.
+Der Computer agiert in dem Sinne, dass der Computer je nach Rolle, das Verhalten des Spielers analysiert und so "eigene" Entscheidungen trifft. Beispielsweise geht der Computer als Jack nicht richtung Norden, wenn der Spieler als Polizist ebenfalls richtung Norden geht.
+Man (damit sind sowohl Spieler als auch Computer gemeint) sollte als Jack auch die Option haben, falsche Fährten zu legen. In diesem Spiel könnte ich diesen "Falsche Fährte" oder "Fake-Tatort" nennen. Dem Polizist würde eine kleine Notiz an dem Feld, auf dem etwas passiert ist, angezeigt werden. Es könnte ein "echter" Tatort oder eine falsche Fährte sein. Dies würde für eine weitere interaktive Möglichkeit sorgen, durch die der Computer das Spiel etwas unberechenbarer bzw. individueller macht.
+
+
+=========================================================
 === Ergänzung Projektbeschreibung MaxiKra, 2016-05-31 ===
 =========================================================
 
