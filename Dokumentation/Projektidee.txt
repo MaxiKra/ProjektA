@@ -3,17 +3,24 @@
 =========================================================
 
 Der Computer reagiert auf das Verhalten des Spielers, indem er, je nach dem auf welches Feld der Spieler sich bewegt, nur diejenigen Felder, die sich im näheren Umkreis befinden, zum "bespielen" freigibt.
-Der Computer agiert in dem Sinne, dass der Computer je nach Rolle, das Verhalten des Spielers analysiert und so "eigene" Entscheidungen trifft. Beispielsweise geht der Computer als Jack nicht richtung Norden, wenn der Spieler als Polizist ebenfalls richtung Norden geht.
-Man (damit sind sowohl Spieler als auch Computer gemeint) sollte als Jack auch die Option haben, falsche Fährten zu legen. In diesem Spiel könnte ich diesen "Falsche Fährte" oder "Fake-Tatort" nennen. Dem Polizist würde eine kleine Notiz an dem Feld, auf dem etwas passiert ist, angezeigt werden. Es könnte ein "echter" Tatort oder eine falsche Fährte sein. Dies würde für eine weitere interaktive Möglichkeit sorgen, durch die der Computer das Spiel etwas unberechenbarer bzw. individueller macht.
+Der Computer agiert in dem Sinne, dass der Computer je nach Rolle, das Verhalten des Spielers analysiert und so "eigene" Entscheidungen trifft. 
+Beispielsweise geht der Computer als Jack nicht richtung Norden, wenn der Spieler als Polizist ebenfalls richtung Norden geht.
+Man (damit sind sowohl Spieler als auch Computer gemeint) sollte als Jack auch die Option haben, falsche Fährten zu legen. 
+In diesem Spiel könnte ich diesen "Falsche Fährte" oder "Fake-Tatort" nennen. 
+Dem Polizist würde eine kleine Notiz an dem Feld, auf dem etwas passiert ist, angezeigt werden. 
+Es könnte ein "echter" Tatort oder eine falsche Fährte sein. 
+Dies würde für eine weitere interaktive Möglichkeit sorgen, durch die der Computer das Spiel etwas unberechenbarer bzw. individueller macht.
 
 
 =========================================================
 === Ergänzung Projektbeschreibung MaxiKra, 2016-05-31 ===
 =========================================================
 
-Einen Log-In könnte man hinzufügen. Dieser wird dann direkt nach Start des Spiels verlangt.
+Einen Log-In könnte man hinzufügen. 
+Dieser wird dann direkt nach Start des Spiels verlangt.
 
-Eine Highscoreliste, kann man ebenfalls im Menü hinzufügen. Diese zeigt dann an, wie viele Spielzüge die Top 10 Spieler gebraucht haben und entweder Jack zu verhaften, oder die Opfer zu töten.
+Eine Highscoreliste, kann man ebenfalls im Menü hinzufügen. 
+Diese zeigt dann an, wie viele Spielzüge die Top 10 Spieler gebraucht haben und entweder Jack zu verhaften, oder die Opfer zu töten.
 
 Die Interaktionsmöglichkeiten im ersten Abschnitt waren so gedacht, dass der Spieler die Rolle von entweder Jack oder einem Polizisten einnimmt, und der Computer die jeweils andere Rolle. 
 Je nach dem wie sich der Spieler auf den Feldern bewegt, reagiert auch der Computer darauf. 
@@ -85,3 +92,23 @@ Genauso auch die Antwort auf die Frage, die ich beim letzten Feedback nannte: Wa
 Damit sagen Sie aus, dass es etwas gibt, aber nicht was die Bedeutung dieser Sache für das Spiel ist. Insbesondere das "uvm." am Ende zeigt leider, dass Sie sich noch zu sehr wenig Arbeit damit machen, zu beschreiben bzw. zu benennen, was das Spiel ausmacht. Ohne diese Arbeit wird aber am Ende kein Spiel herauskommen, sondern nur ein Programm, bei dem Nutzer verschiedene Elemente (z.B. mit der Maus) anwählen bzw. aktivieren können, ohne dass dabei ein erkennbarer Sinn und Zweck vorhanden ist.
 
 Deshalb bleibt die Wertung aktuell unverändert.
+
+===================================
+=== Feedback Alpers, 2016-07-21 ===
+===================================
+
+Das sind schon gute Ideen, um einen computergesteuerten Gegner zu konzipieren. Sie sind also in der richtigen Richtung unterwegs. Allerdings soll der Computer in Abhängigkeit vom einzelnen Spieler und damit auch über viele Partien hinweg sein Verhalten anpassen. Damit Sie sich nicht mit zu viel Grübelei in unnötigen Bereichen beschäftigen möchte ich gleich nochmal betonen, dass es nicht wichtig ist, ob Sie es schaffen, diesen Teil später zu programmieren bzw. ob das überhaupt programmierbar ist. Unter Umständen brauchen Sie dafür Kenntnisse, die Sie jetzt noch nicht haben. Lassen Sie sich also nicht von der Frage behindern, ob Sie das programmiertechnisch hinbekommen, sondern überlegen Sie nur, was hier denkbar wäre.
+
+Aber ich gehe da mal auf Ihr Spiel ein: Da bewegen sich also Polizisten und Täter auf einem Spielfeld. Dann gibt es Tatorte und "Fake-Tatorte". Damit das Spiel sich an einzelne Spieler anpassen kann müsste das Spiel also die Positionen und Züge speichern. Oben haben Sie ja schon als eine Möglichkeit genannt, dass der computergesteuerte Täter nicht noch Norden geht, wenn ein Polizist das tut. Schauen wir uns mal an, wie ein adaptiver Computer vorgehen könnte: Der könnte genau solche Züge speichern (quasi als eine Grundlage für eine Statistik): Spieler X geht in 30% der Fälle nach Westen oder Osten, in denen ein Polizist nach Norden geht und in 70% der Fälle nach Süden. Ihre Aufgabe wäre es nun, sich zu überlegen, welche Konstellationen möglich wären und wie der Computer dann reagieren oder sogar antizipieren könnte (um eben sein Verhalten an das des Spielers anzupassen, also "echt" mit ihm zu interagieren). Wenn es da weitere Polizisten gäbe, könnte der Computer versuchen die so zu steuern, dass der Spieler in eine Falle läuft, die aber nur bei eben diesem Spieler gestellt werden würde? (Bei anderen Spielern gibt es ggf. andere Reaktionsmuster.) Eine andere statistische Basis wäre die Häufigkeit des Einsatzes von "Fake-Tatorten" oder ob einzelne Spieler diese nur unter bestimmten Bedingungen einsetzen.
+
+Wie gesagt geht es hier zentral darum, dass Sie versuchen, Strategien für Computerspieler zu entwerfen, die ähnlich den Strategien von guten Pokerspielern das Verhalten jedes einzelnen Gegenspielers individuell integrieren. Das ist anfangs gewöhnungsbedürftig, aber wenn Sie erstmal auf der richtigen Spur sind, werden Sie feststellen, dass das deutlich mehr Spaß machen kann als das eigentliche Programmieren.
+
+Wertung 2: Projektbeschreibung: gesamt: 5 / 10
+- Pro Interaktionsmöglichkeit: 0 (Noch sind Sie nicht ganz am Ziel, aber Sie sind auf dem richtigen Weg.)
+- Knappe aber klare Beschreibung: 5
+- Werbeslogans u.ä.: 0 
+- Designaspekte: 0 
+- Voraussetzung bekannten Wissens: 0 
+(Bitte beachten Sie, dass das die Wertung zum aktuellen Zeitpunkt und keine abschließende Wertung Ihrer Beschreibung ist.)
+
+P.S. Arbeiten Sie aber auch an den strukturellen Elementen, damit Sie mit dem Projekt gut vorankommen.
