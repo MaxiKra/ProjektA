@@ -1,4 +1,13 @@
 =========================================================
+=== Ergänzung Projektbeschreibung MaxiKra, 2016-09-12 ===
+=========================================================
+
+Man könnte versuchen, wie Sie in ihrem Feedback genannt haben, den Computer je mehr Runden gespielt sind schlauer wirken zu lassen, indem er praktisch die Züge des Spielers speichert und aus den vorangegangenen Spielen antizipiert, wie der nächste Spielzug ablaufen könnte. Eventuell lässt sich so auch eine Option des Schwierigkeitgrads (Leicht, Normal, Schwer) ableiten. Je nach Schwierigkeitsgrad würde der Computer dann auch 1, 2 oder 3 Polizisten spielen, die den Spieler als Jack in eine Fallen laufen lassen können.
+Die gespeicherten Muster beziehen sich dann nur auf den Account, mit dem man gerade eingeloggt ist. Es wird also für jeden Account ein neues Muster erstellt und auch nur auf gerade den Account angewendet. Eine andere Option hierfür wäre, dass der Computer sämtliche gespeicherten Muster mit dem des aktuellen Spiels vergleicht (das dann jede oder jede 2. Runde) und sich dann auf ein Muster, das zu dem Zeitpunkt am ähnlichsten ist, bezieht.
+
+### Info, da ich Sie heute leider nicht antreffen konnte: Ich war leider die letzten Wochen der Sommerferien leider nicht zu Hause und konnte somit nicht an dem Projekt arbeiten. Ich bitte Sie darum, das diskoninuierliche Arbeiten an meinem Projekt zu entschuldigen. Dies lag lediglich daran, dass ich den letzten Teil der Ferien keine Möglichkeit hatte. ###
+
+=========================================================
 === Ergänzung Projektbeschreibung MaxiKra, 2016-07-15 ===
 =========================================================
 
